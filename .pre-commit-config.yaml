@@ -4,6 +4,7 @@ default_install_hook_types:
 - commit-msg
 repos:
 - repo: builtin
+  rev: v0.0.0
   hooks:
   - id: trailing-whitespace
   - id: check-added-large-files
