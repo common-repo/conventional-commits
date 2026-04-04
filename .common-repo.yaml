@@ -1,7 +1,7 @@
 - self:
   - repo:
       url: https://github.com/common-repo/upstream
-      ref: v2.0.3
+      ref: v2.0.5
       with:
       - template-vars:
           GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
@@ -9,11 +9,11 @@
           GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
   - repo:
       url: https://github.com/common-repo/pre-commit
-      ref: v1.0.1
+      ref: v1.0.2
 
 - repo:
     url: https://github.com/common-repo/pre-commit
-    ref: v1.0.1
+    ref: v1.0.2
 - include:
   - src/**
 - rename:
