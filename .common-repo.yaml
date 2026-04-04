@@ -10,11 +10,6 @@
   - repo:
       url: https://github.com/common-repo/pre-commit
       ref: v1.0.1
-      with:
-      - yaml:
-          source: .pre-commit-config.yaml
-          dest: .pre-commit-config.yaml
-          append: true
 
 - repo:
     url: https://github.com/common-repo/pre-commit
@@ -24,3 +19,6 @@
 - rename:
     - from: ^src/(.*)$
       to: $1
+- yaml:
+    auto-merge: .pre-commit-config.yaml
+    defer: true
