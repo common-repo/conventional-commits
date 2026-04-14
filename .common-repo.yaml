@@ -8,15 +8,16 @@
           GH_APP_OWNER: common-repo
           GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
   - repo:
+      url: https://github.com/common-repo/conventional-commits
+      # ref: v1.1.0
+      ref: eat-your-own-tail
+  - repo:
       url: https://github.com/common-repo/pre-commit
       ref: v1.1.1
-  - repo:
-      url: https://github.com/common-repo/conventional-commits
-      ref: v1.0.3
 
-- repo:
-    url: https://github.com/common-repo/pre-commit
-    ref: v1.1.1
+# - repo:
+#     url: https://github.com/common-repo/pre-commit
+#     ref: v1.1.1
 - include:
   - "src/**"
 - rename:
