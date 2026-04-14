@@ -1,25 +1,26 @@
 - self:
   - repo:
       url: https://github.com/common-repo/upstream
-      ref: v2.0.6
+      ref: v2.1.0
       with:
       - template-vars:
           GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
           GH_APP_OWNER: common-repo
           GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
-  # - repo:
-  #     url: https://github.com/common-repo/pre-commit
-  #     ref: v1.0.2
+  - repo:
+      url: https://github.com/common-repo/pre-commit
+      ref: v1.1.1
+  - repo:
+      url: https://github.com/common-repo/conventional-commits
+      ref: v1.0.3
 
 - repo:
     url: https://github.com/common-repo/pre-commit
-    ref: v1.0.4
+    ref: v1.1.1
 - include:
-  - src/**
+  - "src/**"
 - rename:
-    - from: ^src/(.*)$
-      to: $1
+  - "^src/(.*)$": "$1"
 - yaml:
     auto-merge: .pre-commit-config.yaml
     array_mode: append_unique
-    defer: true
