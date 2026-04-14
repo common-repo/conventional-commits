@@ -3,6 +3,12 @@ default_install_hook_types:
 - pre-commit
 - commit-msg
 repos:
+- repo: https://github.com/compilerla/conventional-pre-commit
+  rev: v3.6.0
+  hooks:
+  - id: conventional-pre-commit
+    stages:
+    - commit-msg
 - repo: builtin
   hooks:
   - id: trailing-whitespace
@@ -23,9 +29,3 @@ repos:
   - id: check-symlinks
   - id: detect-private-key
   - id: check-executables-have-shebangs
-- repo: https://github.com/compilerla/conventional-pre-commit
-  rev: v3.6.0
-  hooks:
-  - id: conventional-pre-commit
-    stages:
-    - commit-msg
