@@ -12,8 +12,7 @@
       ref: v1.1.1
   - repo:
       url: https://github.com/common-repo/conventional-commits
-      # ref: v1.1.0
-      ref: eat-your-own-tail
+      ref: v1.1.0
 
 - repo:
     url: https://github.com/common-repo/pre-commit
