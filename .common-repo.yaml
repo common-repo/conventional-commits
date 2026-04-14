@@ -14,9 +14,6 @@
       url: https://github.com/common-repo/conventional-commits
       ref: v1.1.1
 
-- repo:
-    url: https://github.com/common-repo/pre-commit
-    ref: v1.1.1
 - include:
   - "src/**"
 - rename:
@@ -24,3 +21,6 @@
 - yaml:
     auto-merge: .pre-commit-config.yaml
     array_mode: append_unique
+- repo:
+    url: https://github.com/common-repo/pre-commit
+    ref: v1.1.1
