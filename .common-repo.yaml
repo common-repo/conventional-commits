@@ -7,12 +7,6 @@
           GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
           GH_APP_OWNER: common-repo
           GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
-  - repo:
-      url: https://github.com/common-repo/pre-commit
-      ref: v1.1.2
-  - repo:
-      url: https://github.com/common-repo/conventional-commits
-      ref: v1.1.1
 
 - include:
   - "src/**"
