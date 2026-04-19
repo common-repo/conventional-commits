@@ -17,4 +17,4 @@
     array_mode: append_unique
 - repo:
     url: https://github.com/common-repo/pre-commit
-    ref: v1.1.2
+    ref: v1.3.0
