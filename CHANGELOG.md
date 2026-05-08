@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v1.4.1 - 2026-05-08
+#### Bug Fixes
+- update common-repo upstream versions - (8a48efe) - jathanism
+
+- - -
+
 ## v1.4.0 - 2026-04-21
 #### Features
 - (**common-repo**) update upstream to v2.1.4 and pre-commit to v1.4.0 - (b22eecf) - Jacob Alheid
