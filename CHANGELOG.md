@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v1.4.2 - 2026-11-03
+#### Bug Fixes
+- (**deps**) update pre-commit and checkout action pins - (64619c5) - Jathan McCollum
+- update common-repo upstream versions - (8a48efe) - jathanism
+#### Documentation
+- add agent navigation index and Claude pointer - (14c52b6) - Jacob Alheid
+
+- - -
+
 ## v1.4.0 - 2026-04-21
 #### Features
 - (**common-repo**) update upstream to v2.1.4 and pre-commit to v1.4.0 - (b22eecf) - Jacob Alheid
