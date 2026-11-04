@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v1.5.0 - 2026-11-04
+#### Features
+- (**common-repo**) update pre-commit to v1.6.0 - (5d3003d) - Devin AI, *Devin AI*
+#### Continuous Integration
+- (**release**) self-heal unsuperseded dangling release tags - (acb80c9) - jathanism
+
+- - -
+
 ## v1.4.2 - 2026-11-03
 #### Bug Fixes
 - (**deps**) update pre-commit and checkout action pins - (64619c5) - Jathan McCollum
