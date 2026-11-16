@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v1.5.1 - 2026-11-16
+#### Bug Fixes
+- (**deps**) update cocogitto-action to v4.2.0 - (d8adfb1) - Michael Erps, *Claude Opus 5.5*
+
+- - -
+
 ## v1.5.0 - 2026-11-04
 #### Features
 - (**common-repo**) update pre-commit to v1.6.0 - (5d3003d) - Devin AI, *Devin AI*
